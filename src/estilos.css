@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+header {
+  height: 9vh;
+  width: 100%;
+  max-width: 100%;
+}
+
+header h1 {
+  font-family: "Roboto";
+  scroll-margin-top: -10ex;
+}
+
+header .opciones {
+  font-family: "Quicksand";
+}
+
+.abajo {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-timing-function: cubic-bezier(1, 1, 1, 1);
+          transition-timing-function: cubic-bezier(1, 1, 1, 1);
+  -webkit-transition-duration: 0.6s;
+          transition-duration: 0.6s;
+  -webkit-box-shadow: 0px 0px 50px -24px #000000;
+  box-shadow: 0px 0px 50px -24px #000000;
+}
+
+.contenedorPrincipal {
+  height: 86vh;
+  font-family: "Roboto";
+}
+
+.verMas {
+  height: 5vh;
+  font-family: "Quicksand";
+}
+
+.tituloAcerca {
+  font-family: "Roboto";
+  height: 10vh;
+  scroll-margin-top: 10ex;
+}
+
+.acercaDe {
+  height: 90vh;
+}
+
+.acercaDe h2 {
+  font-family: "Roboto";
+}
+
+.acercaDe p {
+  font-family: "Quicksand";
+}
+
+.acercaDe .botones {
+  font-family: "Quicksand";
+}
+
+.titulo3 {
+  font-family: "Roboto";
+  height: 15vh;
+  scroll-margin-top: 10ex;
+}
+
+.servicios {
+  height: 85vh;
+}
+
+.servicios h2 {
+  font-family: "Roboto";
+}
+
+.servicios p {
+  font-family: "Quicksand";
+}
+
+.servicios img {
+  width: 70%;
+  margin: auto;
+}
+
+.servicios .imgDW {
+  width: 100%;
+}
+
+.contacto {
+  width: 100%;
+  max-width: 100%;
+  height: 85vh;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.contacto .content-contacto {
+  width: 80%;
+  max-width: 80%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: auto;
+}
+
+.contacto .content-contacto .contentFormulario {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 60%;
+  max-width: 60%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+.contacto .content-contacto .contentFormulario .formulario {
+  width: 60%;
+  display: inline-block;
+  margin: auto;
+}
+
+.contacto .content-contacto .contentFormulario .formulario h2 {
+  font-family: "Roboto";
+  padding: 0.5em;
+}
+
+.contacto .content-contacto .contentFormulario .formulario input[type="text"] {
+  font-family: "Quicksand";
+  width: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: auto;
+  padding: 1em;
+}
+
+.contacto .content-contacto .contentFormulario .formulario textarea {
+  font-family: "Quicksand";
+  width: 100%;
+  resize: none;
+  padding: 1em;
+}
+
+.contacto .content-contacto .contentFormulario .formulario button {
+  font-family: "Roboto";
+  padding: 0.6em;
+  width: 100%;
+}
+
+.contacto .content-contacto .img {
+  width: 50%;
+  max-width: 50%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: auto;
+}
+
+footer {
+  height: 20vh;
+  width: 100%;
+  max-width: 100%;
+}
+
+footer h2 {
+  font-family: "Roboto";
+}
+
+footer .titulo {
+  font-family: "Roboto";
+}
+
+footer li {
+  font-family: "Quicksand";
+}
+
+.warnings {
+  text-align: center;
+  margin: auto;
+  color: #df1717;
+  padding: 1em 0 0 0;
+}
+/*# sourceMappingURL=estilos.css.map */

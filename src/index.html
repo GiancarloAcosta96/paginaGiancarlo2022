@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <script
+      src="https://kit.fontawesome.com/7a49cebf27.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header
+      id="cabecera"
+      class="cabecera w-full bg-white inline-flex items-center justify-around"
+    >
+      <h1 class="titulo font-bold text-4xl">GC</h1>
+      <nav class="opciones">
+        <ul class="inline-flex">
+          <li>
+            <a
+              class="text-gray-500 font-bold text-xl hover:text-[#3f51b5] m-4 p-2"
+              href="#"
+              >Inicio</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-gray-500 font-bold text-xl hover:text-[#3f51b5] m-4 p-2"
+              href="#acercaDe"
+              >Acerca de</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-gray-500 font-bold text-xl hover:text-[#3f51b5] m-4 p-2"
+              href="#servicios"
+              >Servicios</a
+            >
+          </li>
+          <li>
+            <a
+              class="bg-gray-100 shadow-xl shadow-black/10 rounded-xl text-xl font-bold text-[#002984] my-2 transition-all hover:text-[#3f51b5] active:bg-gray-100 active:shadow-inner m-4 px-5 py-2"
+              href="#contacto"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section
+      id="contenedorPrincipal"
+      class="contenedorPrincipal inline-flex w-full"
+    >
+      <div class="content inline-flex items-center w-full justify-around">
+        <div class="redesSociales">
+          <a href="https://github.com/GiancarloAcosta96"
+            ><i
+              class="fa-brands fa-github text-2xl inline-block hover:text-[#3f51b5]"
+            ></i></a
+          ><br />
+          <a href="https://www.linkedin.com/in/gianchungaacosta/"
+            ><i
+              class="fa-brands fa-linkedin-in text-2xl inline-block hover:text-[#3f51b5]"
+            ></i></a
+          ><br />
+          <a href="https://twitter.com/Aerosmith2211"
+            ><i
+              class="fa-brands fa-twitter text-2xl inline-block hover:text-[#3f51b5]"
+            ></i
+          ></a>
+        </div>
+
+        <div class="cuerpo">
+          <h2 class="text-9xl">Hola,</h2>
+          <h2 class="text-5xl">mi nombre es Giancarlo,</h2>
+          <h2 class="text-5xl">soy desarrollador Frontend</h2>
+        </div>
+        <img src="img/developer.svg" height="500" width="500" />
+      </div>
+    </section>
+
+    <section class="verMas inline-flex items-center w-full">
+      <a href="#" class="m-auto hover:text-lg font-bold transition-all"
+        >Ver más<i class="fa-solid fa-arrow-down-long m-2"></i
+      ></a>
+    </section>
+
+    <section id="acercaDe" class="tituloAcerca inline-flex w-full">
+      <h2 class="titulo font-bold text-3xl m-auto">Acerca de mi</h2>
+    </section>
+
+    <section id="acercaDe" class="acercaDe inline-flex items-center w-full">
+      <article
+        class="informacion bg-gray-50 inline-flex rounded-xl shadow-2xl shadow-black/20 items-center m-auto gap-10"
+      >
+        <img
+          class="rounded-l-xl"
+          src="img/perfil.jpg"
+          alt="developer"
+          height="550"
+          width="350"
+        />
+        <div class="contenedorAcerca w-[33rem]">
+          <h2 class="px-8 font-bold text-xl">Un poco de mí</h2>
+          <p class="p-8">
+            Egresado de la carrera de Ingeniería de software en ISIL. Fascinado
+            por la programación web y desarrollo Front-end, me encuentro en la
+            búsqueda de adquirir mucho más experiencia en este campo. También
+            cuento con experiencia en gestión de proyectos y metodologías
+            ágiles. Por esta razón, estoy buscando una compañía dispuesta a
+            ofrecerme un puesto entre sus desarrolladores. A cambio ofrecería mi
+            experiencia, compromiso y una agradable integración al equipo.
+          </p>
+          <div class="botones p-8">
+            <a
+              href="doc/GiancarloChungaCV.pdf"
+              download="GiancarloChungaCV.pdf"
+              class="p-4 bg-gray-100 shadow-xl shadow-black/10 rounded-xl text-lg font-bold text-[#002984] my-2 transition-all active:bg-gray-100 hover:text-[#3f51b5] active:shadow-inner"
+              >Descarga mi CV</a
+            >
+            <a
+              href="#contacto"
+              class="p-4 bg-gray-100 shadow-xl shadow-black/10 rounded-xl text-lg font-bold text-[#002984] my-2 transition-all active:bg-gray-100 hover:text-[#3f51b5] active:shadow-inner"
+              >Contáctame</a
+            >
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section
+      id="servicios"
+      class="titulo3 text-center inline-flex w-full items-center"
+    >
+      <div class="titulos m-auto my-56">
+        <h2 class="titulo font-bold text-3xl m-auto">Servicios</h2>
+        <h3 class="titulo font-bold text-xl m-auto">¿Qué ofrezo?</h3>
+      </div>
+    </section>
+
+    <section class="servicios w-full inline-flex items-center">
+      <article class="contenedorCartas inline-flex items-center m-auto">
+        <div
+          class="carta1 w-[28rem] h-[36rem] m-10 p-10 rounded-xl bg-gray-50 shadow-2xl shadow-black/20"
+        >
+          <h2 class="text-center text-2xl py-2 font-bold">Desarrollo Web</h2>
+          <p class="p-10">
+            Desarrollo de aplicaciones sitios web y sistemas informáticos,
+            brindando de soluciones de software, con capacidad de análisis y
+            gestión, así como prevención y mantenimiento de sistemas
+            informáticos.
+          </p>
+          <img class="imgDW" src="img/web.svg" alt="web" />
+        </div>
+        <div
+          class="carta2 w-[28rem] h-[36rem] m-10 p-10 rounded-xl bg-gray-50 shadow-2xl shadow-black/20"
+        >
+          <h2 class="text-center text-2xl py-2 font-bold">Responsive Design</h2>
+          <p class="p-10">
+            Desarrollo de aplicaciones sitios web y sistemas informáticos,
+            brindando de soluciones de software, con capacidad de análisis y
+            gestión, así como prevención y mantenimiento de sistemas
+            informáticos.
+          </p>
+          <img class="imgRD" src="img/design.svg" alt="design" />
+        </div>
+        <div
+          class="carta3 w-[28rem] h-[36rem] m-10 p-10 rounded-xl bg-gray-50 shadow-2xl shadow-black/20"
+        >
+          <h2 class="text-center text-2xl py-2 font-bold">
+            Posicionamiento SEO
+          </h2>
+          <p class="p-10">
+            Desarrollo de aplicaciones sitios web y sistemas informáticos,
+            brindando de soluciones de software, con capacidad de análisis y
+            gestión, así como prevención y mantenimiento de sistemas
+            informáticos.
+          </p>
+          <img class="PS" src="img/seo.svg" alt="seo" />
+        </div>
+      </article>
+    </section>
+
+    <section
+      id="contacto"
+      class="titulo3 text-center inline-flex w-full items-center"
+    >
+      <div class="titulos m-auto">
+        <h2 class="titulo font-bold text-3xl m-auto">
+          ¿Necesitas una página web?
+        </h2>
+        <h3 class="titulo font-bold text-xl m-auto">
+          Ponte en contacto conmigo a través de este formulario.
+        </h3>
+      </div>
+    </section>
+
+    <section class="contacto">
+      <div class="content-contacto">
+        <div class="contentFormulario">
+          <form
+            action=""
+            method="post"
+            id="form"
+            class="formulario bg-gray-50 p-10 rounded-xl shadow-2xl shadow-black/20"
+          >
+            <h2 class="text-gray-500 font-bold text-xl">Contáctame</h2>
+            <div class="grupo my-2">
+              <input
+                type="text"
+                placeholder="nombre"
+                id="nombre"
+                class="outline-none rounded-xl shadow-inner bg-gray-50 shadow-gray-500/20"
+              />
+            </div>
+            <div class="grupo my-2">
+              <input
+                type="text"
+                placeholder="teléfono"
+                id="telefono"
+                class="outline-none rounded-xl shadow-inner bg-gray-50 shadow-gray-500/20"
+              />
+            </div>
+            <div class="grupo my-2">
+              <input
+                type="text"
+                placeholder="correo electrónico"
+                id="email"
+                class="outline-none rounded-xl shadow-inner bg-gray-50 shadow-gray-500/20"
+              />
+            </div>
+            <div class="grupo my-2">
+              <textarea
+                placeholder="mensaje"
+                name="mensaje"
+                id="mensaje"
+                cols="30"
+                rows="10"
+                class="outline-none rounded-xl shadow-inner bg-gray-50 shadow-gray-500/20"
+              ></textarea>
+              <button
+                type="submit"
+                class="bg-gray-100 shadow-xl shadow-black/10 rounded-xl text-xl font-bold text-[#002984] my-2 transition-all active:bg-gray-100 active:shadow-inner"
+              >
+                Enviar
+              </button>
+              <p class="warnings" id="warnings"></p>
+            </div>
+          </form>
+        </div>
+        <div class="img">
+          <img src="img/contact.svg" alt="contact" height="700" width="700" />
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer text-gray-500 inline-flex bg-gray-100 shadow-lg">
+      <div
+        class="content-footer w-full inline-flex justify-around items-center"
+      >
+        <div class="redes">
+          <h2 class="text-xl p-4 font-bold">Mis redes</h2>
+          <a class="px-4" href="https://github.com/GiancarloAcosta96"
+            ><i class="fa-brands fa-github text-xl hover:text-[#002984]"></i
+          ></a>
+          <a class="px-4" href="https://www.linkedin.com/in/gianchungaacosta/"
+            ><i
+              class="fa-brands fa-linkedin-in text-xl hover:text-[#002984]"
+            ></i
+          ></a>
+          <a class="px-4" href="https://twitter.com/Aerosmith2211"
+            ><i class="fa-brands fa-twitter text-xl hover:text-[#002984]"></i
+          ></a>
+        </div>
+        <div class="menu inline-flex">
+          <div class="incio-menu">
+            <ul class="px-4">
+              <li class="text-xl font-bold titulo">Inicio</li>
+              <li>Inicio</li>
+            </ul>
+          </div>
+          <div class="acerca-menu">
+            <ul class="px-4">
+              <li class="text-xl font-bold titulo">Acerca de mi</li>
+              <li>Mi experiencia</li>
+            </ul>
+          </div>
+          <div class="servicios-menu">
+            <ul class="px-4">
+              <li class="text-xl font-bold titulo">Servicios</li>
+              <li>Desarrollo Web</li>
+              <li>Diseño Web</li>
+              <li>Posicionamiento Web</li>
+            </ul>
+          </div>
+          <div class="contacto-menu">
+            <ul class="px-4">
+              <li class="text-xl font-bold titulo">Contacto</li>
+              <li>¿Necesitas ayuda?</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="java.js"></script>
+  </body>
+</html>

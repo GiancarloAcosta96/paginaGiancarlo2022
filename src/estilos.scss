@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+header {
+  height: 9vh;
+  width: 100%;
+  max-width: 100%;
+  h1 {
+    font-family: "Roboto";
+    scroll-margin-top: -10ex;
+  }
+  .opciones {
+    font-family: "Quicksand";
+  }
+}
+
+.abajo {
+  position: sticky;
+  top: 0;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(1, 1, 1, 1);
+  transition-duration: 0.6s;
+  -webkit-box-shadow: 0px 0px 50px -24px #000000;
+  box-shadow: 0px 0px 50px -24px #000000;
+}
+
+.contenedorPrincipal {
+  height: 86vh;
+  font-family: "Roboto";
+}
+
+.verMas {
+  height: 5vh;
+  font-family: "Quicksand";
+}
+
+.tituloAcerca {
+  font-family: "Roboto";
+  height: 10vh;
+  scroll-margin-top: 10ex;
+}
+
+.acercaDe {
+  height: 90vh;
+
+  h2 {
+    font-family: "Roboto";
+  }
+  p {
+    font-family: "Quicksand";
+  }
+  .botones {
+    font-family: "Quicksand";
+  }
+}
+
+.titulo3 {
+  font-family: "Roboto";
+  height: 15vh;
+  scroll-margin-top: 10ex;
+}
+
+.servicios {
+  height: 85vh;
+  h2 {
+    font-family: "Roboto";
+  }
+  p {
+    font-family: "Quicksand";
+  }
+  img {
+    width: 70%;
+    margin: auto;
+  }
+  .imgDW {
+    width: 100%;
+  }
+}
+
+.contacto {
+  width: 100%;
+  max-width: 100%;
+  height: 85vh;
+  display: inline-flex;
+  .content-contacto {
+    width: 80%;
+    max-width: 80%;
+    display: inline-flex;
+    margin: auto;
+    .contentFormulario {
+      display: inline-flex;
+      width: 60%;
+      max-width: 60%;
+      align-items: center;
+      margin: auto;
+
+      .formulario {
+        h2 {
+          font-family: "Roboto";
+          padding: 0.5em;
+        }
+        width: 60%;
+        display: inline-block;
+        margin: auto;
+        input[type="text"] {
+          font-family: "Quicksand";
+          width: 100%;
+          display: inline-flex;
+          margin: auto;
+          padding: 1em;
+        }
+        textarea {
+          font-family: "Quicksand";
+          width: 100%;
+          resize: none;
+          padding: 1em;
+        }
+        button {
+          font-family: "Roboto";
+          padding: 0.6em;
+          width: 100%;
+        }
+      }
+    }
+    .img {
+      width: 50%;
+      max-width: 50%;
+      display: inline-flex;
+      margin: auto;
+    }
+  }
+}
+
+footer {
+  height: 20vh;
+  width: 100%;
+  max-width: 100%;
+  h2 {
+    font-family: "Roboto";
+  }
+  .titulo {
+    font-family: "Roboto";
+  }
+  li {
+    font-family: "Quicksand";
+  }
+}
+
+.warnings {
+  text-align: center;
+  margin: auto;
+  color: #df1717;
+  padding: 1em 0 0 0;
+}
