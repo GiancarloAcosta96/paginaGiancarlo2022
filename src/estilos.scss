@@ -15,11 +15,12 @@ header {
     font-family: "Roboto";
     scroll-margin-top: -10ex;
   }
-  .opciones {
+  .menu {
     font-family: "Quicksand";
   }
 }
 
+// Estilo que se aplica al hacer scroll
 .abajo {
   position: sticky;
   top: 0;
@@ -29,6 +30,7 @@ header {
   -webkit-box-shadow: 0px 0px 50px -24px #000000;
   box-shadow: 0px 0px 50px -24px #000000;
 }
+// Estilo que se aplica al hacer scroll
 
 .contenedorPrincipal {
   height: 86vh;
@@ -40,7 +42,7 @@ header {
   font-family: "Quicksand";
 }
 
-.tituloAcerca {
+.tituloAcercaDe {
   font-family: "Roboto";
   height: 10vh;
   scroll-margin-top: 10ex;
@@ -67,47 +69,40 @@ header {
 }
 
 .servicios {
-  height: 85vh;
-  h2 {
-    font-family: "Roboto";
-  }
-  p {
-    font-family: "Quicksand";
-  }
-  img {
-    width: 70%;
+  .contenedorCartas {
+    width: 80%;
+    max-width: 80%;
     margin: auto;
-  }
-  .imgDW {
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    h2 {
+      font-family: "Roboto";
+    }
+    p {
+      font-family: "Quicksand";
+    }
+    img {
+      width: 70%;
+      margin: auto;
+    }
+    .imgDW {
+      width: 100%;
+    }
   }
 }
 
 .contacto {
-  width: 100%;
-  max-width: 100%;
-  height: 85vh;
-  display: inline-flex;
   .content-contacto {
     width: 80%;
     max-width: 80%;
-    display: inline-flex;
-    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     .contentFormulario {
-      display: inline-flex;
-      width: 60%;
-      max-width: 60%;
-      align-items: center;
-      margin: auto;
-
+      width: 75%;
       .formulario {
         h2 {
           font-family: "Roboto";
-          padding: 0.5em;
         }
-        width: 60%;
-        display: inline-block;
-        margin: auto;
         input[type="text"] {
           font-family: "Quicksand";
           width: 100%;
@@ -118,8 +113,8 @@ header {
         textarea {
           font-family: "Quicksand";
           width: 100%;
-          resize: none;
           padding: 1em;
+          resize: none;
         }
         button {
           font-family: "Roboto";
@@ -127,12 +122,6 @@ header {
           width: 100%;
         }
       }
-    }
-    .img {
-      width: 50%;
-      max-width: 50%;
-      display: inline-flex;
-      margin: auto;
     }
   }
 }

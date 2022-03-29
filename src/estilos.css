@@ -17,7 +17,7 @@ header h1 {
   scroll-margin-top: -10ex;
 }
 
-header .opciones {
+header .menu {
   font-family: "Quicksand";
 }
 
@@ -45,7 +45,7 @@ header .opciones {
   font-family: "Quicksand";
 }
 
-.tituloAcerca {
+.tituloAcercaDe {
   font-family: "Roboto";
   height: 10vh;
   scroll-margin-top: 10ex;
@@ -73,66 +73,48 @@ header .opciones {
   scroll-margin-top: 10ex;
 }
 
-.servicios {
-  height: 85vh;
+.servicios .contenedorCartas {
+  width: 80%;
+  max-width: 80%;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
 }
 
-.servicios h2 {
+.servicios .contenedorCartas h2 {
   font-family: "Roboto";
 }
 
-.servicios p {
+.servicios .contenedorCartas p {
   font-family: "Quicksand";
 }
 
-.servicios img {
+.servicios .contenedorCartas img {
   width: 70%;
   margin: auto;
 }
 
-.servicios .imgDW {
+.servicios .contenedorCartas .imgDW {
   width: 100%;
-}
-
-.contacto {
-  width: 100%;
-  max-width: 100%;
-  height: 85vh;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
 }
 
 .contacto .content-contacto {
   width: 80%;
   max-width: 80%;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
 }
 
 .contacto .content-contacto .contentFormulario {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  width: 60%;
-  max-width: 60%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: auto;
-}
-
-.contacto .content-contacto .contentFormulario .formulario {
-  width: 60%;
-  display: inline-block;
-  margin: auto;
+  width: 75%;
 }
 
 .contacto .content-contacto .contentFormulario .formulario h2 {
   font-family: "Roboto";
-  padding: 0.5em;
 }
 
 .contacto .content-contacto .contentFormulario .formulario input[type="text"] {
@@ -148,23 +130,14 @@ header .opciones {
 .contacto .content-contacto .contentFormulario .formulario textarea {
   font-family: "Quicksand";
   width: 100%;
-  resize: none;
   padding: 1em;
+  resize: none;
 }
 
 .contacto .content-contacto .contentFormulario .formulario button {
   font-family: "Roboto";
   padding: 0.6em;
   width: 100%;
-}
-
-.contacto .content-contacto .img {
-  width: 50%;
-  max-width: 50%;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  margin: auto;
 }
 
 footer {

@@ -15,8 +15,8 @@
       id="cabecera"
       class="cabecera w-full bg-white inline-flex items-center justify-around"
     >
-      <h1 class="titulo font-bold text-4xl">GC</h1>
-      <nav class="opciones">
+      <h1 class="font-bold text-4xl">Gian</h1>
+      <nav class="menu">
         <ul class="inline-flex">
           <li>
             <a
@@ -88,7 +88,7 @@
       ></a>
     </section>
 
-    <section id="acercaDe" class="tituloAcerca inline-flex w-full">
+    <section id="acercaDe" class="tituloAcercaDe inline-flex w-full">
       <h2 class="titulo font-bold text-3xl m-auto">Acerca de mi</h2>
     </section>
 
@@ -141,10 +141,10 @@
       </div>
     </section>
 
-    <section class="servicios w-full inline-flex items-center">
-      <article class="contenedorCartas inline-flex items-center m-auto">
+    <section class="servicios">
+      <article class="contenedorCartas m-auto">
         <div
-          class="carta1 w-[28rem] h-[36rem] m-10 p-10 rounded-xl bg-gray-50 shadow-2xl shadow-black/20"
+          class="carta h-[36rem] m-10 p-10 rounded-xl bg-gray-50 shadow-2xl shadow-black/20"
         >
           <h2 class="text-center text-2xl py-2 font-bold">Desarrollo Web</h2>
           <p class="p-10">
@@ -156,7 +156,7 @@
           <img class="imgDW" src="img/web.svg" alt="web" />
         </div>
         <div
-          class="carta2 w-[28rem] h-[36rem] m-10 p-10 rounded-xl bg-gray-50 shadow-2xl shadow-black/20"
+          class="carta h-[36rem] m-10 p-10 rounded-xl bg-gray-50 shadow-2xl shadow-black/20"
         >
           <h2 class="text-center text-2xl py-2 font-bold">Responsive Design</h2>
           <p class="p-10">
@@ -168,7 +168,49 @@
           <img class="imgRD" src="img/design.svg" alt="design" />
         </div>
         <div
-          class="carta3 w-[28rem] h-[36rem] m-10 p-10 rounded-xl bg-gray-50 shadow-2xl shadow-black/20"
+          class="carta h-[36rem] m-10 p-10 rounded-xl bg-gray-50 shadow-2xl shadow-black/20"
+        >
+          <h2 class="text-center text-2xl py-2 font-bold">
+            Posicionamiento SEO
+          </h2>
+          <p class="p-10">
+            Desarrollo de aplicaciones sitios web y sistemas informáticos,
+            brindando de soluciones de software, con capacidad de análisis y
+            gestión, así como prevención y mantenimiento de sistemas
+            informáticos.
+          </p>
+          <img class="PS" src="img/seo.svg" alt="seo" />
+        </div>
+        <div
+          class="carta h-[36rem] m-10 p-10 rounded-xl bg-gray-50 shadow-2xl shadow-black/20"
+        >
+          <h2 class="text-center text-2xl py-2 font-bold">
+            Posicionamiento SEO
+          </h2>
+          <p class="p-10">
+            Desarrollo de aplicaciones sitios web y sistemas informáticos,
+            brindando de soluciones de software, con capacidad de análisis y
+            gestión, así como prevención y mantenimiento de sistemas
+            informáticos.
+          </p>
+          <img class="PS" src="img/seo.svg" alt="seo" />
+        </div>
+        <div
+          class="carta h-[36rem] m-10 p-10 rounded-xl bg-gray-50 shadow-2xl shadow-black/20"
+        >
+          <h2 class="text-center text-2xl py-2 font-bold">
+            Posicionamiento SEO
+          </h2>
+          <p class="p-10">
+            Desarrollo de aplicaciones sitios web y sistemas informáticos,
+            brindando de soluciones de software, con capacidad de análisis y
+            gestión, así como prevención y mantenimiento de sistemas
+            informáticos.
+          </p>
+          <img class="PS" src="img/seo.svg" alt="seo" />
+        </div>
+        <div
+          class="carta h-[36rem] m-10 p-10 rounded-xl bg-gray-50 shadow-2xl shadow-black/20"
         >
           <h2 class="text-center text-2xl py-2 font-bold">
             Posicionamiento SEO
@@ -199,19 +241,19 @@
     </section>
 
     <section class="contacto">
-      <div class="content-contacto">
-        <div class="contentFormulario">
+      <div class="content-contacto p-10 m-auto">
+        <div class="contentFormulario m-auto">
           <form
             action=""
             method="post"
             id="form"
-            class="formulario bg-gray-50 p-10 rounded-xl shadow-2xl shadow-black/20"
+            class="formulario m-auto bg-gray-50 p-10 rounded-xl shadow-2xl shadow-black/20"
           >
-            <h2 class="text-gray-500 font-bold text-xl">Contáctame</h2>
+            <h2 class="font-bold text-xl p-2">Contáctame</h2>
             <div class="grupo my-2">
               <input
                 type="text"
-                placeholder="nombre"
+                placeholder="Nombre"
                 id="nombre"
                 class="outline-none rounded-xl shadow-inner bg-gray-50 shadow-gray-500/20"
               />
@@ -219,7 +261,7 @@
             <div class="grupo my-2">
               <input
                 type="text"
-                placeholder="teléfono"
+                placeholder="Teléfono"
                 id="telefono"
                 class="outline-none rounded-xl shadow-inner bg-gray-50 shadow-gray-500/20"
               />
@@ -227,14 +269,14 @@
             <div class="grupo my-2">
               <input
                 type="text"
-                placeholder="correo electrónico"
+                placeholder="Correo electrónico"
                 id="email"
                 class="outline-none rounded-xl shadow-inner bg-gray-50 shadow-gray-500/20"
               />
             </div>
             <div class="grupo my-2">
               <textarea
-                placeholder="mensaje"
+                placeholder="Mensaje"
                 name="mensaje"
                 id="mensaje"
                 cols="30"
@@ -251,55 +293,63 @@
             </div>
           </form>
         </div>
-        <div class="img">
+        <div class="img m-auto">
           <img src="img/contact.svg" alt="contact" height="700" width="700" />
         </div>
       </div>
     </section>
 
-    <footer class="footer text-gray-500 inline-flex bg-gray-100 shadow-lg">
+    <footer class="footer inline-flex bg-gray-100 shadow-lg">
       <div
         class="content-footer w-full inline-flex justify-around items-center"
       >
         <div class="redes">
           <h2 class="text-xl p-4 font-bold">Mis redes</h2>
           <a class="px-4" href="https://github.com/GiancarloAcosta96"
-            ><i class="fa-brands fa-github text-xl hover:text-[#002984]"></i
+            ><i class="fa-brands fa-github text-xl hover:text-[#3f51b5]"></i
           ></a>
           <a class="px-4" href="https://www.linkedin.com/in/gianchungaacosta/"
             ><i
-              class="fa-brands fa-linkedin-in text-xl hover:text-[#002984]"
+              class="fa-brands fa-linkedin-in text-xl hover:text-[#3f51b5]"
             ></i
           ></a>
           <a class="px-4" href="https://twitter.com/Aerosmith2211"
-            ><i class="fa-brands fa-twitter text-xl hover:text-[#002984]"></i
+            ><i class="fa-brands fa-twitter text-xl hover:text-[#3f51b5]"></i
           ></a>
         </div>
         <div class="menu inline-flex">
           <div class="incio-menu">
             <ul class="px-4">
               <li class="text-xl font-bold titulo">Inicio</li>
-              <li>Inicio</li>
+              <li><a class="hover:text-[#3f51b5]" href="">Inicio</a></li>
             </ul>
           </div>
           <div class="acerca-menu">
             <ul class="px-4">
               <li class="text-xl font-bold titulo">Acerca de mi</li>
-              <li>Mi experiencia</li>
+              <li>
+                <a class="hover:text-[#3f51b5]" href="">Mi experiencia</a>
+              </li>
             </ul>
           </div>
           <div class="servicios-menu">
             <ul class="px-4">
               <li class="text-xl font-bold titulo">Servicios</li>
-              <li>Desarrollo Web</li>
-              <li>Diseño Web</li>
-              <li>Posicionamiento Web</li>
+              <li>
+                <a class="hover:text-[#3f51b5]" href="">Desarrollo Web</a>
+              </li>
+              <li><a class="hover:text-[#3f51b5]" href="">Diseño Web</a></li>
+              <li>
+                <a class="hover:text-[#3f51b5]" href="">Posicionamiento Web</a>
+              </li>
             </ul>
           </div>
           <div class="contacto-menu">
             <ul class="px-4">
               <li class="text-xl font-bold titulo">Contacto</li>
-              <li>¿Necesitas ayuda?</li>
+              <li>
+                <a class="hover:text-[#3f51b5]" href="">¿Necesitas ayuda?</a>
+              </li>
             </ul>
           </div>
         </div>
