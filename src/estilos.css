@@ -76,11 +76,13 @@ header .menu {
 .servicios .contenedorCartas {
   width: 80%;
   max-width: 80%;
-  margin: auto;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .servicios .contenedorCartas h2 {
@@ -163,5 +165,11 @@ footer li {
   margin: auto;
   color: #df1717;
   padding: 1em 0 0 0;
+}
+
+.container {
+  border: 5px solid #0f0;
+  width: 250px;
+  text-align: center;
 }
 /*# sourceMappingURL=estilos.css.map */

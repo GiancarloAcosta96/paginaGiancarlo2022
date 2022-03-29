@@ -72,9 +72,9 @@ header {
   .contenedorCartas {
     width: 80%;
     max-width: 80%;
-    margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
     h2 {
       font-family: "Roboto";
     }
@@ -146,4 +146,10 @@ footer {
   margin: auto;
   color: #df1717;
   padding: 1em 0 0 0;
+}
+
+.container {
+  border: 5px solid #0f0;
+  width: 250px;
+  text-align: center;
 }

@@ -141,7 +141,7 @@
       </div>
     </section>
 
-    <section class="servicios">
+    <section class="servicios p-10">
       <article class="contenedorCartas m-auto">
         <div
           class="carta h-[36rem] m-10 p-10 rounded-xl bg-gray-50 shadow-2xl shadow-black/20"
@@ -166,20 +166,6 @@
             informáticos.
           </p>
           <img class="imgRD" src="img/design.svg" alt="design" />
-        </div>
-        <div
-          class="carta h-[36rem] m-10 p-10 rounded-xl bg-gray-50 shadow-2xl shadow-black/20"
-        >
-          <h2 class="text-center text-2xl py-2 font-bold">
-            Posicionamiento SEO
-          </h2>
-          <p class="p-10">
-            Desarrollo de aplicaciones sitios web y sistemas informáticos,
-            brindando de soluciones de software, con capacidad de análisis y
-            gestión, así como prevención y mantenimiento de sistemas
-            informáticos.
-          </p>
-          <img class="PS" src="img/seo.svg" alt="seo" />
         </div>
         <div
           class="carta h-[36rem] m-10 p-10 rounded-xl bg-gray-50 shadow-2xl shadow-black/20"
@@ -254,6 +240,7 @@
               <input
                 type="text"
                 placeholder="Nombre"
+                name="name"
                 id="nombre"
                 class="outline-none rounded-xl shadow-inner bg-gray-50 shadow-gray-500/20"
               />
@@ -262,6 +249,7 @@
               <input
                 type="text"
                 placeholder="Teléfono"
+                name="telef"
                 id="telefono"
                 class="outline-none rounded-xl shadow-inner bg-gray-50 shadow-gray-500/20"
               />
@@ -270,6 +258,7 @@
               <input
                 type="text"
                 placeholder="Correo electrónico"
+                name="email"
                 id="email"
                 class="outline-none rounded-xl shadow-inner bg-gray-50 shadow-gray-500/20"
               />
@@ -277,13 +266,14 @@
             <div class="grupo my-2">
               <textarea
                 placeholder="Mensaje"
-                name="mensaje"
+                name="message"
                 id="mensaje"
                 cols="30"
                 rows="10"
                 class="outline-none rounded-xl shadow-inner bg-gray-50 shadow-gray-500/20"
               ></textarea>
               <button
+                name="enviar"
                 type="submit"
                 class="bg-gray-100 shadow-xl shadow-black/10 rounded-xl text-xl font-bold text-[#002984] my-2 transition-all active:bg-gray-100 active:shadow-inner"
               >
